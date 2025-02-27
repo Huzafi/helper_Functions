@@ -41,3 +41,11 @@ def get_chat_completion(prompt, history):
     # Generate content with history
     response = model.generate_content(prompt_with_history)
     return response.text
+
+
+# Save all above code in file in colab
+
+from helper_functions.txt import  print_llm_response
+print_llm_response = "What is the biggest city in the world "
+
+#Then run this code in colab cell your mini chatbot is  ready 
